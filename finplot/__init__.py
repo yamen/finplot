@@ -2490,7 +2490,7 @@ except:
 # default to black-on-white
 pg.widgets.GraphicsView.GraphicsView.wheelEvent = partialmethod(_wheel_event_wrapper, pg.widgets.GraphicsView.GraphicsView.wheelEvent)
 # use finplot instead of matplotlib
-pd.set_option('plotting.backend', 'finplot.pdplot')
+#pd.set_option('plotting.backend', 'finplot.pdplot')
 # pick up win resolution
 try:
     import ctypes
